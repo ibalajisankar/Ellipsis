@@ -12,19 +12,19 @@ Generally, While adding an ellipsis to the word, one needs to mention how my cha
 
 ## Options
 
-* showChar
-        &nbsp;&nbsp;How many character need to displayed.
-        eg. showChar : 1 ,showChar : "auto"
-* ellipsesPosition 
-    &nbsp;&nbsp;Where the ellipses need to be added (default:"start")
-* ellipsestext
-    &nbsp;&nbsp;Text to be appended (default : "...")
+##### showChar
+- How many character need to displayed.
+     eg. showChar : 1 ,showChar : "auto"
+#### ellipsesPosition 
+- Where the ellipses need to be added (default:"start")
+#### ellipsestext
+- Text to be appended (default : "...")
 
-* tooltip
-    * pack 
-    &nbsp;&nbsp;Display 'tooltip' when hover over the ellipses text (default:"false").
-    * text 
-    &nbsp;&nbsp;To display entire text in the tooltip or only the truncated text.(default : "true")
+#### tooltip
+* pack 
+    * Display 'tooltip' when hover over the ellipses text (default:"false").
+* text 
+    - To display entire text in the tooltip or only the truncated text.(default : "true")
 &nbsp;&nbsp;&nbsp;true - To display entire text
 &nbsp;&nbsp;&nbsp;false - To display  truncated text 
 
